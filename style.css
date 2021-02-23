@@ -1,0 +1,41 @@
+.Section1 {
+  background-color: #bd5d38;
+  height: 550px;
+}
+
+.row {
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Section2 {
+  margin: -1;
+  border: 2px;
+  height: 100%;
+
+  overflow-y: initial;
+}
+
+.school {
+  padding: 5px;
+}
+
+.handleflow {
+  overflow-y: scroll;
+  max-height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .row {
+    margin: 60px;
+    height: 600px;
+  }
+
+  .Section2 {
+    overflow-y: auto;
+  }
+
+  .Section1 {
+    height: 100%;
+  }
+}
